@@ -24,7 +24,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    ExpandableCard(description = "This is for testing".repeat(20))
+//                    ExpandableCard(description = "This is for testing".repeat(20))
+                    CustomTextField()
                 }
             }
         }
